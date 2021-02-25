@@ -1,2 +1,12 @@
 # viroinjector
-inect legal programs with a payload 
+
+
+Inject metasploit code inside a legal prosses 
+
+
+Made for love <3 
+
+Marius - Virosafe Norge AS 
+
+
+
